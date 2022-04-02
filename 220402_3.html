@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+    }
+
+    select {
+      margin: 5px;
+    }
+    p {
+      color: tomato;
+    }
+    #complete {
+      border: 1px solid black;
+      color: rgb(200 100 32);
+    }
+    div > span {
+      text-decoration: underline;
+    }
+    label {
+      text-decoration: underline;
+    }
+    #skrrr {
+      color: blue;
+    }
+    #etion {
+      color: yellowgreen;
+    }
+  </style>
+  <body>
+    <form action="" method="GET">
+      <label for="name" id="skrrr">SKILLS </label>
+      <select name="skills">
+        <option value="0">HTML</option>
+        <option value="1">CSS</option>
+        <option value="2">javascript</option></select
+      ><br />
+      <label for="name" id="etion"> 오낸뿌부 </label>
+      <select name="onf">
+        <option value="one">효진</option>
+        <option value="two">창윤</option>
+        <option value="three">민균</option>
+      </select>
+      <button type="submit">submit</button>
+    </form>
+    <br />
+
+    <div>
+      사실 radio랑 checkbox처럼 value name id 해주는건 같은데 <br />
+      어차피 selct 해야하는 것들이 한 뭉탱이로 묶여있으니까 <br />
+      name 을 option에 하나씩 다 해줄 필요는 없고<span>
+        부모요소인 select에 name 박아넣기</span
+      ><br />
+      그리고 선택한 값이 어떤건지 알기 위해 value 값을 기재해주면 된다
+    </div>
+    <p>근데 사실 label에 id 저거는 왜 넣어야하는지 이해못했음</p>
+    <p id="complete">앗쉬 이제 알았다 id 속성 똑바로 머리에 집어넣어라ㅡㅡ</p>
+  </body>
+</html>

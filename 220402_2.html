@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      font-weight: 700;
+    }
+    input {
+      width: 20px;
+      height: 20px;
+    }
+    form {
+      border: 2px solid black;
+    }
+    label {
+      font-size: 20px;
+      color: tomato;
+    }
+  </style>
+  <body>
+    <header>사용가능언어</header>
+    <br />
+    <form method="GET">
+      <br />
+      <input type="checkbox" id="html" name="check" value="html" />
+      <label for="html">html</label>
+      <input type="checkbox" id="css" name="check" value="css" />
+      <label for="css">css</label>
+      <input type="checkbox" id="js" name="check" value="javascript" />
+      <label for="js">java script</label>
+      <button>submit</button>
+    </form>
+    <br />
+    <p><추가></p>
+    <div>
+      radio나 checkbox나 input에 넣는 요소들은 똑같음 다른점은 쳌박은 중복이
+      가능하다!
+    </div>
+    <p>
+      만약 radio처럼 보이는데 쳌박처럼 중복체크가 가능한거면 css에서 쳌박모델을
+      radio 스타일링 한거
+    </p>
+  </body>
+</html>
